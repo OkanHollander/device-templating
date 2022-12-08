@@ -4,11 +4,14 @@ Requirements:
 
 # install virtualenv
 sudo apt-get update
+
 sudo apt-get install python3-pip
+
 sudo pip3 install virtualenv
 
 # create virtualenv
 virtualenv -p /usr/bin/python3 venv
+
 source ./venv/bin/activate
 
 # install requirements
